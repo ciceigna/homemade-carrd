@@ -7,13 +7,17 @@ h1 {
   color: #FF1493;
 }
 
-ul{
+h2, ul, p {
   font-size: 25px;
   color: #7FFF00;
 }
 
 h1 {
   font-size: 30px;
+}
+
+h2 {
+  animation: changeColor2 2s linear infinite;
 }
 
 i {
@@ -44,6 +48,16 @@ a:hover {
     70%{color: #FF1493;}
     100%{color: white;}
 }
+
+@keyframes changeColor2{
+    0%{color:white;}
+    20%{color: #7FFF00;}
+    40%{color:white;}
+    60%{color: #7FFF00;}
+    80%{color: white;}
+    100%{color: #7FFF00;}
+}
+
 
 @keyframes shake{
     0% {
